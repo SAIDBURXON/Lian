@@ -1,0 +1,36 @@
+.test{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.test p{
+    margin: 1em 0;
+    /* background-color: rgba(87, 87, 255, 0.678); */
+}
+.block1,
+.block2{
+    width: 50%;
+}
+.block1 img{
+    /* width: 100%; */
+}
+p:nth-child(3n+1){
+    font-size: 25px;
+    background-color: cornflowerblue;
+}
+p:nth-child(3n+2){
+    font-size: 16px;
+    background-color: coral;
+}
+p:nth-child(3n+3){
+    font-size: 20px;
+    background-color: crimson;
+}
+@media (max-width:1440px){
+    .block1 p{
+
+    }
+    .block2 p{
+        font-size: 16px;
+    }
+}

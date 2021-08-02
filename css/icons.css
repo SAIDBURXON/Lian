@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'icon';
+    src: url('fonts/fa-solid-900.ttf') format('truetype');
+    font-weight:900;
+}
+@font-face {
+    font-family: 'icon';
+    src: url('fonts/fa-light-300.ttf') format('truetype');
+    font-weight:300;
+}
+@font-face {
+    font-family: 'icon';
+    src: url('fonts/fa-light-300.ttf') format('truetype');
+    font-weight:300;
+}
+@font-face {
+    font-family: 'icon';
+    src: url('fonts/fa-brands-400.ttf') format('truetype');
+    font-weight:900;
+}
+.search__btn::before{
+    content: '\f002';
+    font-family: 'icon'; 
+    font-weight: 900;
+}
+.slider__control-next::before{
+    content: '\f054';
+    font-family: 'icon';
+    font-weight: 400;
+}
+.slider__control-prev::before{
+    content: '\f053';
+    font-family: 'icon';
+    font-weight: 400;
+}
+.facebook::before{
+    content: '\f39e';
+    font-family: 'icon';
+    font-weight: 900;
+}
+.google::before{
+    content: '\f0d5';
+    font-weight: 900;
+    font-family: 'icon';
+}
+.twitter::before{
+    content: '\f099';
+    font-weight: 900;
+    font-family: 'icon';
+}
+.dribble::before{
+    content: '\f17d';
+    font-family: 'icon';
+    font-weight: 900;
+}
+.instagram::before{
+    content: '\f16d';
+    font-family: 'icon';
+    font-weight: 900;
+}
+.linked::before{
+    content: '\f0e1';
+    font-family: 'icon';
+    font-weight: 900;
+}
+.pinterest::before{
+    content: '\f231';
+    font-family: 'icon';
+    font-weight: 900;
+}
+.post__author::before{
+    content: '\f406';
+    font-family: 'icon';
+    font-weight: 900;
+}
+.post__date::before{
+    content: '\f133';
+    font-family: 'icon';
+    font-weight: 400;
+}
+.share-btn::before{
+    content: '\f1e0';
+    font-family: 'icon';
+    font-weight: 900;
+}
+.like-btn::before{
+    content: '\f004';
+    font-family: 'icon';
+    font-weight: 900;
+}
